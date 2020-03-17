@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: ; */
+}
+
+/*  the Ethiopian Flag */
+.green{
+    width: 320px;
+    height: 70px;
+    background-color: green;
+}
+.yellow{
+    width: 320px;
+    height: 70px;
+    background-color: yellow;
+}
+.red{
+    width: 320px;
+    height: 70px;
+    background-color: red;
+}
+
+/* UAE flag */
+.UAE-container>.left-contain{
+    float: left;
+}
+.UAE-container>.right-contain{
+    float: left;
+}
+.UAE-container>.left-contain>.uae-dark-gray{
+    height: 210px;
+    width: 80px;
+    background-color: #B80020;
+}
+.UAE-container>.right-contain>.uae-green{
+    width: 240px;
+    height: 70px;
+    background-color: green;
+
+}
+.UAE-container>.right-contain>.uae-white{
+    width: 239px;
+    height: 70px;
+    background-color: white;
+    border-right: 1px solid black;    
+
+
+}
+.UAE-container>.right-contain>.uae-black{
+    width: 240px;
+    height: 70px;
+    background-color: black;
+
+}
+.UAE-container>.uae-clear{
+    clear: both;
+}
+
+/* the flag of Bah */
+
+
+.bah-black{
+    border-top: 105px solid transparent;
+    border-bottom: 105px solid transparent;
+    border-left: 105px solid black;
+    float: left;
+    /* border: 70px solid black;
+    background-color: black; */
+}
+.bah-yellow{
+    width: 320px;
+    height: 70px;
+    background-color: #FEF200;
+}
+
+.bah-light-blue1{
+    width: 320px;
+    height: 70px;
+    background-color:#01AEEF;
+}
+
+
+.bah-light-blue2{
+    width: 320px;
+    height: 70px;
+    background-color:#01AEEF;
+}
+.bah-clear{
+    clear: both;
+}
+
+
+/* the flag of switzerland */
+
+.swit-contain{
+    display: inline;
+    /* s: 3px solid black; */
+}
+
+.swit-contain>.swit-left-contain{
+    width: 70px;
+    height: 210px;
+    background-color: red;
+    float: left;
+}
+.swit-contain>.swit-mid{
+    width: auto;
+    float: left;
+    position: relative;
+}
+.swit-contain>.swit-mid>.swit-mid-top-contain{
+    width: 180px;
+    height: 80px;
+    background-color: red;
+
+}
+.swit-contain>.swit-mid>.swit-mid-contain{
+    width: 180px;
+    height: 50px;
+    background-color: white;
+}
+
+.swit-contain>.swit-mid>.swit-mid-bottom-contain{
+    width: 180px;
+    height: 80px;
+    background-color: red;
+}
+
+.swit-contain>.swit-right-contain{
+    width: 70px;
+    height: 210px;
+    background-color: red;
+    float: left;
+}
+
+.swit-contain>.swit-mid>.swit-mid-top-contain>.t-cross-white{
+    width: 70px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+
+}
+.swit-contain>.swit-mid>.swit-mid-bottom-contain>.b-cross-white{
+    width: 70px;
+    height:50px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 55px;
+
+}
+.swit-clear{
+    clear: both;
+}
+
+
+
+/*  the canadian flag */
+.can-container{
+    margin-left: 10px;
+    display: inline-block;
+    background-color: black;
+}
+
+.can-container>.can-lft{
+    height: 210px;
+    width: 86.6px;
+    background-color: #EC1B24;
+    float: left;
+}
+.can-container>.can-mid{
+    height: 210px;
+    width: 146.6px;
+    background-color: #ffffff;
+    float: left;
+}
+.can-container>.can-rght{
+    height: 210px;
+    width: 86.6px;
+    background-color: #EC1B24;
+    float: left;
+}
+
+.can-clear{
+    clear: both;
+}
+
+/* the flag of chile */
+
+.chile-container
+{
+    display: inline-block;
+}
+
+.chile-container>.chile-top-contain{
+    width: 320px;
+    height: 105px;
+    background-color: white;
+}
+
+.chile-container>.chile-top-contain>.chile-blue{
+    background-color: blue;
+    height: 105px;
+    width: 100px;
+}
+
+.chile-container>.chile-bottom{
+    background-color: #ED1B24;
+    height: 105px;
+    width: 32opx;
+}
+
+/* the flag of sweeden */
+
+.swed-container{
+    background-color:#E8D018;
+    height: 210px;
+    width: 320px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.swed-container>.swed-t-l{
+     background-color: #3868A0;
+     height: 90px;
+     width: 90px;
+}
+.swed-container>.swed-t-r{
+    background-color: #3868A0;
+    height: 90px;
+    width: 190px;
+    position: absolute;
+    top: 0;
+    left: 130px;
+}
+.swed-container>.swed-b-l{
+    background-color: #3868A0;
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+}
+.swed-container>.swed-b-r{
+    background-color: #3868A0;
+    height: 90px;
+    width: 190px;
+    position: absolute;
+    top: 120px;
+    left: 130px;
+}
+
+/* Flag of Japan */
+.jp-container{
+    width: 320px;
+    height: 210px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.jp-container>.jp-circle{
+    background-color: red;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+/* the flag of Jamaica */
+.jam-container
+{
+    position: relative;
+    margin-left: 10px;
+    height: 210px;
+    width: 320px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.jam-container>.jam-lft{
+    position: absolute;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 130px solid black;
+    top: 5px;
+}
+.jam-container>.jam-tp{
+    position: absolute;
+    border-top: 100px solid green;
+    border-right: 140px solid transparent;
+    border-left: 140px solid transparent;
+    left: 20px;
+}
+.jam-container>.jam-rt{
+    position: absolute;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 130px solid black;
+    left: 190px;
+    top: 5px;
+}
+.jam-container>.jam-bt{
+    position: absolute;
+    border-bottom: 100px solid green;
+    border-right: 140px solid transparent;
+    border-left: 140px solid transparent;
+    left: 20px;
+    top: 111px;
+}
+
+
+/* the flag of of Kwait */
+.kwt-black{
+    border-left: 100px solid black;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    height: 70px;
+    float: left;
+    /* border: 70px solid black;
+    background-color: black; */
+}
+.kwt-yellow{
+    width: 320px;
+    height: 70px;
+    background-color: white;
+}
+
+.kwt-light-blue1{
+    width: 320px;
+    height: 70px;
+    background-color:green;
+}
+
+
+.kwt-light-blue2{
+    width: 320px;
+    height: 70px;
+    background-color:red;
+}
+.kwt-clear{
+    clear: both;
+}
+
+/* the flag of Iceland */
+
+.ice-container{
+    background-color:red;
+    height: 210px;
+    width: 320px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.ice-container>.ice-t-l{
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+     background-color: blue;
+     height: 80px;
+     width: 80px;
+}
+.ice-container>.ice-t-r{
+    border-left: 10px solid white;
+    border-bottom: 10px solid white;
+    background-color: blue;
+    height: 80px;
+    width: 180px;
+    position: absolute;
+    top: 0;
+    left: 130px;
+}
+.ice-container>.ice-b-l{
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+    background-color: blue;
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+}
+.ice-container>.ice-b-r{
+    border-left: 10px solid white;
+    border-top: 10px solid white;
+    background-color: blue;
+    height: 80px;
+    width: 180px;
+    position: absolute;
+    top: 120px;
+    left: 130px;
+}
+
+
+/* the flag of botswana */
+.bots-container{
+    width: auto;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+}
+
+.bots-container>.bots-tp{
+    background-color: #00BDF2;
+    height: 90px;
+    width: 320px;
+}
+.bots-container>.bots-mid{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    height: 40px;
+    width: 320px;
+}
+.bots-container>.bots-bot{
+    background-color: #00BDF2;
+    height: 90px;
+    width: 320px;
+}
+/* star */
