@@ -1,117 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
-    <!-- <style>
-        body{
-            background-image: url("https://images.unsplash.com/photo-1583969358187-29fcae5265d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"); 
-               background-color: skyblue;
-               color: white;
-            /* background-repeat: no-repeat; */
-        }
-    </style> -->
-    <link rel="icon" href="./assets/images/module-6.jfif">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="icon" href="./assets/image/profile.png">
 </head>
+
 <body>
 
-<table cellspacing = "20">
-    <hr>
-        <a href="index.html" target="_balanck">home</a> |
-        <a href="contact.html">contact</a> |
-        <a href="gallery.html">Gallery</a>
-    <hr>
-    <td>
-        <td>
-            <img src="./assets/images/profile.png" alt="profile picture">
-        </td>
-        <td>  <!-- header part of our page -->
-            <h1>Natnael Abay</h1>
-            <h3>Software engineering student in AAiT</h3>
-            <p>my name is Natnael Abay, I am passionate software engineering student in Addis Ababa university. i love creating new apps and learning 
-            new things.</p>
-            <hr></td>
-    </td>
-</table>
-<!-- if there is no method mentioned it is by default get -->
-<!-- contact us header-->
 
-<hr>
+    <!-- for the resposnice part -->
 
-<form action="mailto:se.natnael.abay@gmail.com" enctype="utf-8" method = "POST">
-    <table cellspacing = "15">
-            <tr>
-                <td rowspan="8"><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
-                <td><label for="fName">First Name: </label> </td> 
-                <td><input type="text" name = "sNAme" id="sNAme" pattern = "^[A-Za-z]{1}[a-z]{1,20}$" required></td>       
-            </tr>
-        <tr>
-            <td><label for="sNAme">Last Name: </label></td>                  
-            <td>
-                <input type="text"  pattern = "^[A-Za-z]{1}[a-z]{1,20}$" name = "fName" id="fName" required>
-            </td>
-        </tr>
 
-        <tr>
-            <td>
+
+    <div class="nav-section-r">
+        <div class="nav-r">
+            <a href="./index.html">
+                <div class="choice-r">H</div>
+            </a>
+            <a href="./myworks.html">
+                <div class="choice-r">M</div>
+            </a>
+            <a href="./gallery.html">
+                <div class="choice-r">G</div>
+            </a>
+            <a href="./contact.html">
+                <div class="choice-r">C</div>
+            </a>
+            <a href="./blog.html">
+                <div class="choice-r">B</div>
+            </a>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+    <!-- navigation bar -->
+    <div class="nav-section">
+        <div class="nav">
+            <a href="./index.html">
+                <div class="choice">Home</div>
+            </a>
+            <a href="./myworks.html">
+                <div class="choice">My works</div>
+            </a>
+            <a href="./gallery.html">
+                <div class="choice">Gallery</div>
+            </a>
+            <a href="./contact.html">
+                <div class="choice">Contact</div>
+            </a>
+            <a href="./blog.html">
+                <div class="choice">Blog</div>
+            </a>
+
+
+
+        </div>
+
+    </div>
+    <!-- -------------------------------------------------------------------- -->
+
+
+
+
+    <section id="contact-img">
+        <h1>Contact Me</h1>
+    </section>
+
+
+
+
+    <section id="contact-form">
+        <div class="map" style="border-radius:5px ;">
+
+            <div class="mapouter" style="position:initial;">
+                <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=addis%20ababa&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://www.embedgooglemap.net"></a></div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 500px;
+                        width: 600px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 500px;
+                        width: 600px;
+                    }
+                </style>
+            </div>
+        </div>
+        <div class="form-container">
+            <form aaction="mailto:se.natnael.abay@gmail.com" enctype="utf-8" method="POST">
+                <h2 class="frm">Contact - Form</h2>
+                <label for="fName">First Name: </label>
+                <input type="text" name="sNAme" id="sNAme" pattern="^[A-Za-z]{1}[a-z]{1,20}$" required>
+
+                <label for="sNAme">Last Name: </label>
+
+                <input type="text" pattern="^[A-Za-z]{1}[a-z]{1,20}$" name="fName" id="fName" required>
+
                 <label for="PhoneNum">Phone Number: </label>
-            </td>
-            <td>
-                <input type="tel" id="tel" name="tel" pattern = "^\+\d{1,3}[-.\s]?\d{2}[-.\s]?\d{3}[-.\s]?\d{4}$" value = "+111-11-111-1111" required>
-            </td>
-        
-        </tr>
-        <tr>
-            <td><label = "forFavColor">What is your favorite color: </td>
-            <td> <input type="color" name="color" id="color"></td>
-        </tr>
-        <tr>
-            <td>
-                <label for="Email">email: </label> 
-            </td>
-            <td>
-                <input type="email" name = "Email" id = "Email">
-            </td>
-        </tr>
-        <tr>
-            <td><label for="date">date </label></td>
-            <td><input type="datetime-local" name="datetime" id="datetime"> month</td>
-        </tr>
-            <tr>
-                <td>where are you from :</td>
-                <td>
+                <input type="tel" id="tel" name="tel" pattern="^\+\d{1,3}[-.\s]?\d{2}[-.\s]?\d{3}[-.\s]?\d{4}$"
+                    value="+111-11-111-1111" required>
+
+                <label="forFavColor">What is your favorite color: </label>
+                    <input type="color" name="color" id="color"></td>
+
+                    <label for="Email">email: </label>
+
+                    <input type="email" name="Email" id="Email">
+                    <label for="date">date </label>
+                    <input type="datetime-local" name="datetime" id="datetime">
+                    <br> where are you from :
+
+
                     <select name="Countdy" id="">
                         <option>Africa</option>
                         <option>Asia</option>
                         <option>America</option>
-                    </select></td>
-            </tr>
-        <tr>
-            <td>Leave Your Comment here ..</td>
-            <td><textarea id="comment" name = "comment" cols="30" rows="10"></textarea></td>    
-        </tr> 
-        <tr>
-            <td>
-                <td colspan="2"><input type="submit" width = "100" value="Submit"></td>
-            </td>
-        </tr>
-    </table>
-</form>
-<hr>
+                    </select>
+                    <br>
+                    <label>Leave your comment here.. </label>
+
+                    <textarea id="comment" name="comment" cols="30" rows="10"></textarea>
+
+                    <input type="submit" width="100" value="Submit">
 
 
-<h3>
-    contact Me.....
-</h3>
-<a href target="_balanck">facebook</a> |
-<a href target="_balanck">instagram</a> |
-<a href target="_balanck">twitter</a> |
-<a href target="_balanck">likee</a> |
-<a href target="_balanck">telegram</a> |
-<hr>
-<p align = "center"> Developed by Natnael Abay &copy;2020  </p>
+
+
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+    <section id="footer">
+        <div class="top-side">
+
+            <div class="equal">
+                <div class="ft-mod"></div>
+                <div class="links">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href target="_blanck">facebook</a></li>
+                        <li><a href target="_blanck">instagram</a></li>
+                        <li><a href target="_blanck">twitter</a></li>
+                        <li> <a href target="_blanck">likee</a></li>
+                        <li> <a href target="_blanck">telegram</a></li>
+                    </ul>
+                </div>
+
+                <div class="ft-mod"></div>
+                <div class="location">
+                    <h2>Location</h2>
+                    <ul>
+                        <li>Addis Ababa, 5 killo</li>
+                        <li>Bole edanmall 2nd floor</li>
+                    </ul>
+                </div>
+                <div class="ft-mod"></div>
+
+
+            </div>
+
+            <div class="equal"></div>
+        </div>
+        <div class="bot-side" style="text-align: center;">
+            &copy; <span id="bot-name">Natnael abay</span>&nbsp; March 2020
+        </div>
+    </section>
 
 
 </body>
+
 </html>

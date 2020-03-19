@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: white;
+}
+.nav-section-r{
+    display: none;
+}
+.nav-section{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+}
+
+.nav
+{
+    padding: 10px;
+    overflow: hidden;
+    
+    display: flex;
+    height: auto;
+   
+    justify-content: center;
+   background-color: black;
+}
+
+.nav .choice{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 20px;    
+
+}
+.nav .choice:hover{
+    transition: background-color 1s;
+    color: black;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    background-color: wheat;
+}
+
+
+
+
+/*  this is the image section */
+
+#contact-form{
+    height: 900px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(204, 204, 255);
+}
+
+
+#contact-img{
+    height: 400px;
+    width: 100%;
+    background-image: url("../image/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-img h1{
+    text-align: center;
+
+    font-size: 4em;
+}
+
+
+input,textarea{
+    display: block;
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+    
+}
+.form-container{
+    background-color: white;
+    font-size: 1.2em;
+    margin:auto 10px;
+    border-radius: 10px;
+    padding: 40px 40px;
+    width:35%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.frm{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+input[type=submit]{
+    height: 50px;
+
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+select{
+    width: 40%;
+    
+}
+
+input[type=submit]:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 1s;
+}
+.map{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    width: auto;
+    height: auto;
+}
+
+
+
+
+/* the footer section is put here */
+#footer{
+    height: 200px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #d9f2f2;
+
+}
+
+#footer .top-side .equal{
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .top-side .equal .ft-mod{
+    width: 25%;
+}
+
+#footer .top-side .equal .links ul{
+
+    list-style: none;
+}
+#footer .top-side .equal .links ul li{
+    margin-top: 15px;
+}
+#footer .top-side .equal .links ul li a{
+ text-decoration: none; 
+}
+#footer .top-side .equal .location ul{
+    list-style: none;
+}
+#footer .top-side .equal .location ul li{
+    margin-top: 15px;
+}
+
+.location{
+    padding-left: 70px;
+}
+#footer .bot-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    height: 60px;
+    color: white;
+    background-color: #008080;
+    width: 100%;
+}
+
+.bot-side{
+    padding-top: 20px;
+}
+#bot-name{
+    
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width:1215px){
+    .map{
+        display: none;
+    }
+    .form-container{
+        width: 60%;
+    }
+
+    .nav-section{
+        display: none;
+    }
+    
+    .nav-section-r{
+        display: block;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: fixed;
+    }
+    
+    .nav-r
+    {
+        padding: 10px;
+        overflow: hidden;
+        
+        display: flex;
+        height: auto;
+       
+        justify-content: center;
+       background-color: black;
+    }
+    
+    .nav-r .choice-r{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+        border-radius: 5px;
+        width: 40px;
+        text-align: center;
+        padding: 20px;    
+    
+    }
+    .nav-r .choice-r:hover{
+        transition: background-color 1s;
+        color: black;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        background-color: wheat;
+    }
+    
+    .info-text{
+        
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 60%;
+    }
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
