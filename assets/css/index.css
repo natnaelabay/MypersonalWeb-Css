@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: white;
+}
+.nav-section-r{
+    display: none;
+}
+.nav-section{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+}
+
+.nav
+{
+    padding: 10px;
+    overflow: hidden;
+    
+    display: flex;
+    height: auto;
+   
+    justify-content: center;
+   background-color: black;
+}
+
+.nav .choice{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 20px;    
+
+}
+.nav .choice:hover{
+    transition: background-color 1s;
+    color: black;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    background-color: wheat;
+}
+
+
+/* the introducton section is here */
+
+
+#info{
+    background-color: #99ffff;
+    display: flex;
+
+    height: fit-content;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    
+}
+
+
+.info-mod{
+    width: 30%;
+}
+
+.img{
+    width:15%;
+}
+
+.info-text{
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    padding: 20px;
+    width: auto;
+
+}
+
+
+
+.info-md{
+    width: 5%;}
+
+
+
+/* the skills part is here */
+#skills-r{
+    display: none;
+}
+#skills{
+
+   
+    padding-top: 20px;
+    padding-bottom: 2.5em;
+    background-color: #ccffff;
+}
+
+#skills h1{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+#skills .main-container .sk-mod{
+    width: 25%;
+}
+#skills .main-container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#skills .main-container .left-side{
+    font-size: 1.2em;
+    background-color:rgb(236, 226, 226);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    width: 230px;
+    border-radius: 10px;
+
+
+    
+}
+#skills .main-container .left-side ul{
+    list-style: none;
+}
+#skills .main-container .left-side ul li{
+    margin-top: 13px;
+}
+
+
+
+/* this is the slider part for my skills */
+#skills .main-container .sk-md{
+    height: 100px;
+    border-left: 2px solid black;
+}
+#skills .main-container .right-side ul{
+    list-style: none;
+}
+#skills .main-container .right-side .back{
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 15px;
+    height: 20px;
+}
+
+#skills .right-side .slider-container{
+    background-color: rgb(236, 226, 226);
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: 278px;
+    margin-right: 30px;
+}
+#skills .right-side .slider-container .back .fill1{
+    background-color: red;
+    height: 100%;
+    width: 60%;
+    border-radius: 5px;
+
+}
+.slider-container .back .fill2{
+    background-color: red;
+    height: 100%;
+    width: 70%;
+    border-radius: 5px;
+}
+.slider-container .back .fill3{
+    background-color: red;
+    height: 100%;
+    width: 75%;
+    border-radius: 5px;
+}
+.slider-container .back .fill4{
+
+    background-color: red;
+    height: 100%;
+    width: 58%;
+    border-radius: 5px;
+}
+.slider-container .back .fill5{
+    background-color: red;
+    height: 100%;
+    width: 36%;
+    border-radius: 5px;
+}
+
+.slider-container .back .fill6{
+    background-color: red;
+    height: 100%;
+    width: 57%;
+    border-radius: 5px;
+}.slider-container .back .fill7{
+    background-color: red;
+    height: 100%;
+    width: 66%;
+    border-radius: 5px;
+}.slider-container .back .fill8{
+    background-color: red;
+    height: 100%;
+    width: 79%;
+    border-radius: 5px;
+}
+/* this is the work section */
+
+
+
+#work{
+    background-color: #99ffff;
+   
+   
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+   
+}
+#work .work-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+
+.wrk-right, .wrk-left{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    
+    padding:40px;
+
+    color: white;
+    width: 250px;
+    background-color: black;
+}
+
+
+.wrk-right ul, .wrk-left ul{
+    list-style: none;
+    
+}
+
+.wrk-right ul li, .wrk-left ul li {
+    padding-top: 40px;
+}
+
+.wrk-equal{
+    width: 25%;
+}
+#work h1{
+    margin-bottom: 1.2em;
+}
+.wrk-middle {
+    
+    height: 110px;
+    border-left: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------- */
+
+/* this is the hobbies section */
+
+#hobbies{
+    background-color: black;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #00e6e6;
+    height: 520px;
+}
+.hob-container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    align-items: center;
+    margin: 0 auto;
+   
+}
+
+
+.right, .left{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:40px;
+    width: 250px;
+    margin-top: 30px;
+    color: whitesmoke;
+    background-color: #00b3b3;
+    border-radius: 15px;
+}
+#hobbies .hob-container .right{
+    margin-right: 30px;
+
+}
+
+.right ul, .left ul{
+    list-style: none;
+    
+}
+
+.right ul li, .left ul li {
+    padding-top: 40px;
+}
+
+.equal{
+    width: 25%;
+}
+#hobbies h1{
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+.middle {
+    
+    height: 110px;
+    border-left: 2px solid black;
+}
+
+
+
+/* the footer section is put here */
+#footer{
+    height: 200px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #d9f2f2;
+
+}
+
+#footer .top-side .equal{
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .top-side .equal .ft-mod{
+    width: 25%;
+}
+
+#footer .top-side .equal .links ul{
+
+    list-style: none;
+}
+#footer .top-side .equal .links ul li{
+    margin-top: 15px;
+}
+#footer .top-side .equal .links ul li a{
+ text-decoration: none; 
+}
+#footer .top-side .equal .location ul{
+    list-style: none;
+}
+#footer .top-side .equal .location ul li{
+    margin-top: 15px;
+}
+
+.location{
+    padding-left: 70px;
+}
+#footer .bot-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    height: 60px;
+    color: white;
+    background-color: #008080;
+    width: 100%;
+}
+
+.bot-side{
+    padding-top: 20px;
+}
+#bot-name{
+    
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------for screen sixe 1361 2263 */
+
+@media screen and (max-width: 1361px)  and (min-width:740px){
+  
+.info-mod{
+    display: none;
+}
+.info-text{
+    width: 40%;
+}
+
+
+.sk-mod{
+    display: none;
+}
+
+#skills .main-container{
+    justify-content: space-around;
+}
+#work .work-container .wrk-equal{
+display: none;
+}
+#work .work-container {
+    justify-content: space-around;
+}
+#hobbies .hob-container .equal{
+    display: none;
+}
+#hobbies .hob-container {
+    justify-content: space-around;
+}
+
+
+}
+
+/* -------------------responsice design--------------- */
+
+@media screen and (max-width: 739px) {
+  
+#info{
+    padding-top:70px;
+    display: block;
+    width: 100%;
+}
+
+#info .img {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+.nav-section{
+    display: none;
+}
+
+.nav-section-r{
+    display: block;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+}
+
+.nav-r
+{
+    padding: 10px;
+    overflow: hidden;
+    
+    display: flex;
+    height: auto;
+   
+    justify-content: center;
+   background-color: black;
+}
+
+.nav-r .choice-r{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+    border-radius: 5px;
+    width: 40px;
+    text-align: center;
+    padding: 20px;    
+
+}
+.nav-r .choice-r:hover{
+    transition: background-color 1s;
+    color: black;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    background-color: wheat;
+}
+
+.info-text{
+    
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 60%;
+}
+
+
+/* ------------------Skills--------- */
+
+#skills{
+    display: none;
+    
+}
+
+
+#skills-r{
+    display: block;
+padding-top: 20px;
+padding-bottom: 2.5em;
+background-color: #ccffff;
+}
+
+
+
+
+
+
+#skills-r .main-container-r .left-side-r ul{
+list-style-type: none;
+}
+
+#skills-r{
+
+    padding-top: 20px;
+    padding-bottom: 2.5em;
+    background-color: #ccffff;
+}
+
+#skills-r h1{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+#skills-r .main-container-r .left-side-r{
+    margin: 0 auto;
+   
+    font-size: 1.2em;
+    background-color:rgb(236, 226, 226);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    width: 230px;
+    border-radius: 10px;
+
+
+    
+}
+#skills .main-container .left-side ul{
+    list-style: none;
+}
+#skills .main-container .left-side ul li{
+    margin-top: 13px;
+}
+
+
+
+/* this is the slider part for my skills */
+
+
+ .back-r{
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 10px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#skills .right-side .slider-container{
+    background-color: rgb(236, 226, 226);
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: 278px;
+    margin-right: 30px;
+}
+.fill1-r{
+    background-color: red;
+    height: 100%;
+    width: 60%;
+    border-radius: 5px;
+
+}
+ .fill2-r{
+    background-color: red;
+    height: 100%;
+    width: 70%;
+    border-radius: 5px;
+}
+.fill3-r{
+    background-color: red;
+    height: 100%;
+    width: 75%;
+    border-radius: 5px;
+}
+.fill4-r{
+
+    background-color: red;
+    height: 100%;
+    width: 58%;
+    border-radius: 5px;
+}
+.fill5-r{
+    background-color: red;
+    height: 100%;
+    width: 36%;
+    border-radius: 5px;
+}
+
+.fill6-r{
+    background-color: red;
+    height: 100%;
+    width: 57%;
+    border-radius: 5px;
+}
+.fill7-r{
+    background-color: red;
+    height: 100%;
+    width: 66%;
+    border-radius: 5px;
+}
+.fill8-r{
+    background-color: red;
+    height: 100%;
+    width: 79%;
+    border-radius: 5px;
+}
+
+
+#work .work-container .wrk-left{
+width: 40%;
+
+margin-right: 10px;
+
+}
+
+
+
+
+#work .work-container .wrk-right{
+    margin-left: 10px;
+    width: 40%;    
+    }
+    
+
+
+#hobbies .hob-container .left{
+    margin-right: 10px;
+    height: 300px;
+
+}
+
+
+#hobbies .hob-container .right{
+    margin-left: 10px;
+    height: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

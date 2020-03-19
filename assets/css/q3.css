@@ -4,7 +4,160 @@
     /* background-color: ; */
 }
 
+/* the navigation section is this */
+
+
+
+
+#navigation{
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+
+#navigation ul{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    margin-top: 40px;
+}
+#navigation ul li{
+    list-style: none;
+    display: inline-block;
+}
+#navigation ul li a{
+    position: relative;
+    display: block;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-top: 4px solid #0076d4;
+}
+#navigation ul li a span{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: block;
+    text-transform: uppercase;
+    color: #206026;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+#navigation ul li a span:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffeb3b;
+    color: #262626;
+    transform-origin: top;
+    transform: rotateX(270deg);
+    transition: .8s;
+}
+#navigation  ul li a:hover span:before{
+    transform: rotateX(0deg);
+}
+#navigation ul li a span:after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2196f3 ;
+    color: white;
+    transform-origin: top;
+    transform: rotateX(270deg);
+    transition: 1.3s;
+}
+#navigation ul li a:hover span:after{
+    transition-delay: .3s;
+    transform: rotateX(0deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row-1{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    
+}
+
+/* for the border shadow we would have for them */
+
+
+.et-container,.UAE-container, .Bah-contain, .swit-contain, .can-container, .chile-container, .swed-container, 
+.jp-container, .jam-container, .kwt-contain, .ice-container, .bots-container{
+    
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  the Ethiopian Flag */
+
 .green{
     width: 320px;
     height: 70px;
@@ -255,12 +408,12 @@
 /* Flag of Japan */
 .jp-container{
     width: 320px;
-    height: 210px;
+    height: 21-px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
+    
 }
 
 .jp-container>.jp-circle{
@@ -312,6 +465,10 @@
 
 
 /* the flag of of Kwait */
+.kwt-contain{
+    width: 320px;
+    height: 210px;
+}
 .kwt-black{
     border-left: 100px solid black;
     border-top: 70px solid transparent;
@@ -375,7 +532,7 @@
     border-top: 10px solid white;
     border-right: 10px solid white;
     background-color: blue;
-    height: 90px;
+    height: 80px;
     width: 90px;
     margin-top: 30px;
 }
@@ -393,27 +550,103 @@
 
 /* the flag of botswana */
 .bots-container{
-    width: auto;
-    height: auto;
+    width: 320px;
+    height: 210px;
     background-color: white;
     display: inline-block;
 }
 
 .bots-container>.bots-tp{
     background-color: #00BDF2;
-    height: 90px;
+    height: 83px;
     width: 320px;
 }
 .bots-container>.bots-mid{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
     background-color: black;
-    height: 40px;
+    height: 30px;
     width: 320px;
 }
 .bots-container>.bots-bot{
     background-color: #00BDF2;
-    height: 90px;
+    height: 83px;
     width: 320px;
 }
 /* star */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the footer section is put here */
+#footer{
+    border-top: 10px solid white;
+    padding-top: 30px;
+    background-color: yellow;
+
+}
+
+#footer .top-side .equal{
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .top-side .equal .ft-mod{
+    width: 25%;
+}
+
+#footer .top-side .equal .links ul{
+
+    list-style: none;
+}
+#footer .top-side .equal .links ul li{
+    margin-top: 15px;
+}
+#footer .top-side .equal .links ul li a{
+ text-decoration: none; 
+}
+#footer .top-side .equal .location ul{
+    list-style: none;
+}
+#footer .top-side .equal .location ul li{
+    margin-top: 15px;
+}
+
+.location{
+    padding-left: 70px;
+}
+#footer .bot-side{
+    height: 60px;
+    background-color: red;
+    width: 100%;
+}
+
+.bot-side{
+    padding-top: 20px;
+}
+#bot-name{
+    
+    font-size: 20px;
+}
