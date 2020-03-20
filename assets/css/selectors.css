@@ -52,20 +52,24 @@ input[type = "text"]{
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-div:nth-of-type(3) p{
+div:nth-child(5) p{
     background-color: pink;
 }
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
-div:nth-of-type(3) p:nth-of-type(2){
+div:nth-child(5) p:nth-child(3){
  border: 5px solid white;
 }
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
+div:nth-child(5)  em{
+    color: white;
+    font-size: 20px;
+
+}
 
 /*BONUS CHALLENGES*/
 /*You may need to research some other selectors and properties*/
-
 
 
 
@@ -96,6 +100,6 @@ h1:hover{
 }
 /*Make the <a> element's that have been visited gray */
 
-div:last-of-type(3) a:visited{
+a:visited{
     color: grayd;
 }

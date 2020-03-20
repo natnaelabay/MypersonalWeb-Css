@@ -1,7 +1,48 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-color: ; */
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: white;
+}
+.nav-section-r{
+    display: none;
+}
+.nav-section{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.nav
+{
+    padding: 10px;
+    overflow: hidden;
+    
+    display: flex;
+    height: auto;
+   
+    justify-content: center;
+   background-color: black;
+}
+
+.nav .choice{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 20px;    
+
+}
+.nav .choice:hover{
+    transition: background-color 1s;
+    color: black;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    background-color: wheat;
 }
 
 /* the navigation section is this */
@@ -86,46 +127,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .row-1{
     display: flex;
     margin-top: 30px;
@@ -137,7 +138,7 @@
 /* for the border shadow we would have for them */
 
 
-.et-container,.UAE-container, .Bah-contain, .swit-contain, .can-container, .chile-container, .swed-container, 
+.bul-container,.UAE-container, .Bah-contain, .swit-contain, .can-container, .chile-container, .swed-container, 
 .jp-container, .jam-container, .kwt-contain, .ice-container, .bots-container{
     
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -157,7 +158,19 @@
 
 
 /*  the Ethiopian Flag */
-
+.et-container{
+    position: relative;
+}
+.star{
+    background-image: url("../image/a.png");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 3.8em;
+    left: 6.5em;
+}
 .green{
     width: 320px;
     height: 70px;
@@ -598,11 +611,14 @@
 
 
 
+
+
 /* the footer section is put here */
 #footer{
-    border-top: 10px solid white;
+    height: 200px;
+    padding-bottom: 30px;
     padding-top: 30px;
-    background-color: yellow;
+    background-color: #d9f2f2;
 
 }
 
@@ -638,8 +654,13 @@
     padding-left: 70px;
 }
 #footer .bot-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
     height: 60px;
-    background-color: red;
+    color: white;
+    background-color: #008080;
     width: 100%;
 }
 
@@ -649,4 +670,54 @@
 #bot-name{
     
     font-size: 20px;
+}
+
+
+
+@media screen and (max-width:994px){
+    .row-1{
+        
+        display: block;
+        
+    }
+
+    .nav-section{
+        display: none;
+    }
+    
+    .nav-section-r{
+        display: block;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    }
+    
+    .nav-r
+    {
+        padding: 10px;
+        overflow: hidden;
+        
+        display: flex;
+        height: auto;
+       
+        justify-content: center;
+       background-color: black;
+    }
+    
+    .nav-r .choice-r{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+        border-radius: 5px;
+        width: 40px;
+        text-align: center;
+        padding: 20px;    
+    
+    }
+    .nav-r .choice-r:hover{
+        transition: background-color 1s;
+        color: black;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        background-color: wheat;
+    }
+
 }
