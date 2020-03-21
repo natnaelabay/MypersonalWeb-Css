@@ -16,10 +16,6 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
 }
-
-
-
-
 .nav
 {
     
@@ -48,8 +44,6 @@ color: white;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     background-color: wheat;
 }
-
-
 
 
 /*  this is the image section */
@@ -128,9 +122,6 @@ input[type=submit]:hover{
     width: auto;
     height: auto;
 }
-
-
-
 
 /* the footer section is put here */
 #footer{
@@ -247,58 +238,4 @@ input[type=submit]:hover{
         width: 60%;
     }
     
-    
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
